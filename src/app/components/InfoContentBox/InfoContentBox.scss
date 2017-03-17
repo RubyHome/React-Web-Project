@@ -1,0 +1,72 @@
+.header_menu {
+    padding-right: 15px;
+}
+
+ul.radiogroup li label {
+    color: $blue_color;
+}
+
+.table thead {
+    background-color: $blue_color;
+    color: #ffffff;
+}
+
+#selectElementInfo {
+    li > a {
+        color: #bdbdbd;
+        text-decoration: none;
+    }
+    li.active {
+        border-bottom: 4px solid #ff9900;
+        background-color: #ffffff;
+        color: red;
+    }
+    li.active a {
+        color: #000000;
+    }
+    li:hover {
+        color: #000000;
+        border-bottom: 4px solid #ff9900;
+    }
+    .navbar-default {
+        background-color: #ffffff;
+    }
+}
+
+.radiogroup {
+    display: flex-column;
+    display: webkit-flex-column;
+
+    input[type="radio"] {
+        opacity: 0;
+
+        float: left;
+        width: 18px;
+    }
+
+    label {
+        color: $blue_color;
+    }
+    
+    input[type="radio"] + label {
+        background-color: yellow;
+        cursor: pointer;
+        margin: 0;
+        clear: none;
+
+        /* Left padding makes room for image */
+        padding: 5px 0 4px 24px;
+        background: url('../images/inactive-radio.png') left center no-repeat;
+    }
+
+    input[type="radio"]:checked + label {
+        background: url('../images/active-radio.png') left center no-repeat;
+    }
+
+    
+}
+
+#yesAndNo label {
+    color: #66cfff;
+}
+

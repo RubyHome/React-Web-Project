@@ -1,0 +1,68 @@
+// varialble
+@import "./_vars";
+
+@font-face {
+    font-family: Hind-Regular;
+    src: url('fonts/Hind-Regular.ttf');
+}
+
+@font-face {
+    font-family: Hind-SemiBold;
+    src: url('/fonts/Hind-SemiBold.ttf');
+}
+
+@font-face {
+		font-family: Hind-Medium;
+		src: url('./fonts/Hind-Medium.ttf');
+}
+// common:
+@import "./common";
+
+// views:
+
+// components-Header:
+@import "./header";
+
+// NavbarBox Css
+@import "../components/NavbarBox/NavbarBox";
+
+// ChartBox Css
+@import "../components/ChartBox/ChartBox";
+
+// CliameTableBox Css
+@import "../components/ClaimTableBox/ClaimTableBox";
+
+// RightBox Css
+@import "../components/RightSideBox/index";
+
+// Info VIew
+@import "../views/info/info";
+
+// InfoComponent
+@import "../components/InfoContentBox/InfoContentBox";
+
+// Claim Index Page Css
+@import "../components/IndexBox/IndexBox";
+
+// StepBox
+@import "../components/OpenMatter/StepBox";
+
+// Claim Report
+@import "../components/ClaimReportBox/ClaimReportBox";
+
+@import "../components/Wizard/Wizard";
+
+// containers:
+@import "../containers/app/app";
+
+// ModalBox Css
+@import "../components/ModalBox/ModalBox";
+
+//Sign and Login
+@import "./login";
+
+@import "../components/PaymentBox/PaymentBox";
+
+
+
+

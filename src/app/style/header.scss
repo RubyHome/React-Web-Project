@@ -1,0 +1,76 @@
+body {
+    font-family: Hind-Regular;
+}
+
+.white-panel {
+    background-color: #ffffff;
+    height: 500px;
+    box-shadow: 3px 6px 0px #888888;
+}
+
+@media (min-width: 1600px) {
+    .white-panel {
+        background-color: #ffffff;
+        height: 800px;
+        box-shadow: 3px 6px 0px #888888;
+    }
+}
+
+.footer_text {
+    padding: 1% 4%;
+}
+
+.header_text {
+    padding: 3% 3.5% 1% 3.5%;
+    font-size: 22px;
+    color: $blue_color;
+    a {
+        font-size: 16px;
+    }
+}
+
+.content_text {
+    padding: 0.5% 3.5%;
+    height: 450px;
+    font-size: 22px;
+}
+
+.panel-margin {
+   margin-bottom: 15px; 
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: $blue_color;
+    color: #ffffff;
+}
+
+ul.submenu_text {
+    li {
+        padding-top: 10px;
+    }
+}
+
+.table_mine {
+    overflow-x:auto;
+}
+
+.table>tbody>tr>td {
+    padding: 20px;
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+
+    li a {
+        margin-left: 10px;
+    }
+}
+
+.brand-image {
+    margin-left: 30px;
+}
+
